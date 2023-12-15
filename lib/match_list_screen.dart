@@ -52,30 +52,6 @@ class MatchListScreen extends StatelessWidget {
           return const SizedBox();
         }
       ),
-
-      /// This is for adding new match / data in firestore from my app
-      // floatingActionButton: FloatingActionButton.extended(
-      //   onPressed: () {
-      //     FirebaseFirestore.instance.collection('football').add({
-      //       'match_name': 'my_match',
-      //       'p1': 'sdjf',
-      //       'p2': 'sdjf',
-      //       'goals': '0:0',
-      //       'total_min': '0:0',
-      //       'current_min': '90:00'
-      //     });
-      //     // FirebaseFirestore.instance.collection('football').doc('ksdjfkasdjwe').update({
-      //     //   'match_name': 'my_match',
-      //     //   'p1': 'sdjf',
-      //     //   'p2': 'sdjf',
-      //     //   'goals': '0:0',
-      //     //   'total_min': '0:0',
-      //     //   'current_min': '90:00'
-      //     // });
-      //   },
-      //   label: const Text('Add match'),
-      // ),
-
     );
   }
 }
